@@ -63,7 +63,7 @@ let submarines = [
     new Item('B1021', "Loaded with cheese, our Cheese Submarine is a hit.", "Cheese Submarine", 2200, 0, "src/Submarines/Cheese Submarine.jpg"),
     new Item('B1022', "Twice the cheese, paired with succulent chicken at a 16% discount.", "Double Cheese n Chicken Submarine", 1900, 16, "src/Submarines/Double Cheese n Chicken Submarine.png"),
     new Item('B1023', "Our Special Horgie Submarine is bursting with unique flavors.", "Special Horgie Submarine", 2800, 0, "src/Submarines/Special Horgie Submarine.jpg"),
-    new Item('B1024', "The ultimate treat, our MOS Special Submarine.", "MOS Special Submarine", 3000, 0, "")
+    new Item('B1024', "The ultimate treat, our MOS Special Submarine.", "MOS Special Submarine", 3000, 0, "src/Submarines/MOS Special Submarine.jpeg")
 ]
 let fries = [
     new Item('B1025', "Crispy, golden steak fries in a large serving.", "Steak Fries (Large)", 1200, 0, "src/Fries/Steak_Fries (Large).jpg"),
@@ -81,14 +81,6 @@ let pasta = [
     new Item('B1035', "Fresh and zesty, our Lemon Butter Pasta.", "Lemon Butter Pasta", 1950, 0, "src/Pasta/Lemon_Butter_pasta.jpg"),
     new Item('B1036', "Elegant Tagliatelle Pasta with a hint of sophistication, 1% discount.", "Tagliatelle Pasta", 2400, 1, "src/Pasta/Tagliatelle_Pasta.png"),
     new Item('B1037', "Baked to a golden finish, our Baked Ravioli with a 1% discount.", "Baked Ravioli", 2000, 1, "src/Pasta/Baked_Ravioli.jpg")
-]
-let chicken = [
-    new Item('B1038', "Classic Fried Chicken in a small, tasty portion.", "Fried Chicken (Small)", 1200, 0, ""),
-    new Item('B1039', "Juicy Fried Chicken, regular size with a 10% discount.", "Fried Chicken (Regular)", 2300, 10, ""),
-    new Item('B1040', "Large and crispy Fried Chicken with a 5% discount.", "Fried Chicken (Large)", 3100, 5, ""),
-    new Item('B1041', "Spicy and delicious Hot Wings, large portion.", "Hot Wings (Large)", 2400, 0, ""),
-    new Item('B1042', "Bold and flavorful Devilled Chicken.", "Devilled Chicken (Large)", 900, 0, ""),
-    new Item('B1043', "Smoky and savory BBQ Chicken, regular size.", "BBQ Chicken (Regular)", 2100, 0, "")
 ]
 let bevrage = [
     new Item('B1044', "Refreshing Pepsi, now with a 5% discount.", "Pepsi (330ml)", 990, 5, "src/Beverages/pepsi.jpg"),
