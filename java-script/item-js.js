@@ -284,6 +284,8 @@ function cartOperations(item, qty) {
 document.getElementById('cart-check-out-btn').addEventListener('click', () => {
     placeOrder(cart);
 
+    new bootstrap.Popover(document.getElementById('popover2')).toggle();
+
     cart = [];
     document.getElementById('cart-details').style.display = "none";
     document.getElementById('cart-tbl').style.display = "none"
@@ -348,7 +350,9 @@ function placeOrder(cartArray) {
         orderList += `
                         <div class="container" data-bs-toggle="collapse" href="#collapseExample${temp_y}" role="button"
                             aria-expanded="false" aria-controls="collapseExample">
-                            <div class="container-fluid d-flex flex-row justify-content-center fw-bold fs-6 p-4 rounded-3 border hover-Shadow"
+                            <div
+                                id="popover2" data-bs-toggle="popover" data-bs-content="You can explore more details about your order by clicking here."
+                                class="container-fluid d-flex flex-row justify-content-center fw-bold fs-6 p-4 rounded-3 border hover-Shadow"
                                 style="cursor: pointer;">
                                 <div class="container-fluid fs-varella-round text-center align-content-center Orderid">O${order.orderID.toString().padStart(4, '0')}</div>
                                 <div class="container-fluid fs-varella-round text-center align-content-center Orderdate">${order.orderDate}</div>
